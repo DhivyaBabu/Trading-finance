@@ -174,7 +174,7 @@ nav .profile-area button{
 
 main{
     display:grid;
-    grid-template-columns:16rem auto 30rem;
+    grid-template-columns:16rem auto; /*grid-template-columns:16rem auto 30rem;*/
     gap:2rem;
     width:96%;
     margin:1rem auto 4rem;
@@ -288,13 +288,15 @@ main aside .sidebar h4{
 
 .form-container{
     
-    margin-left:6%;
+    /* margin-left:6%;
     margin-top:5%;
-    margin-right:15%;
+    margin-right:15%; */
     display:none;
-
+    
 }
 form{
+    margin-left:6%;
+    margin-right:15%;
     background-color:white;
     padding:20px;
     border-radius:20px;
@@ -357,6 +359,11 @@ input:focus{
         background:transparent;
         color:var(--color-dark); 
 
+}
+.error{
+    color:red;
+    padding:3px;
+    font-size:12px;
 }
 
 

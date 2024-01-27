@@ -73,33 +73,37 @@
            </div>
         </aside>
          <div class="form-container">
-            <form>
+            <form onsubmit="return validateForm()">
             <button id="formclose-btn">
             <span class="material-icons-sharp">close</span>
            </button>
             <div class="form-element">
                 <label for="username">Username</label>
-                <input type="text" placeholder="username" id="username" name="username">
+                <input onkeyup="validateusername()" type="text" placeholder="username" id="username" name="username">
+                <div id="error_username" class="error"></div>
             </div>
              <div class="form-element">
                 <label for="email">Email</label>
-                <input type="email" placeholder="email@address.com" id="emailid" name="emailid">
+                <input onkeyup="validateemail()" type="email" placeholder="email@address.com" id="emailid" name="emailid">
+                <div id="error_email" class="error"></div>
             </div>
              <div class="form-element">
                 <label for="password">Password</label>
-                <input type="password" placeholder="password" id="password" name="password">
+                <input onkeyup="validatepassword()" type="password" placeholder="password" id="password" name="password">
+                <div id="error_password" class="error"></div>
             </div>
              <div class="form-element">
                 <label for="User">User</label>
                 <select name="User" id="User" placeholder="select">
-                    <option disabled selected>select</option>
+                     <option value="" selected>select</option>
                      <option value="Admin">Admin</option>
                      <option value="Employee">Employee</option>
                      <option value="Customer">Customer</option>
                     </select>
+                 <div id="error_selectOption" class="error"></div>
             </div>
             <div class="login-btn">
-                <button id="login-btn">Login</button>
+                <button id="login-btn"  type="submit">Login</button>
             </div>
             </form>
          </div>
