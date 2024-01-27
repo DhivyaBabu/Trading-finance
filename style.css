@@ -4,7 +4,7 @@
     --color-gray-light:#86848c;
     --color-gray-dark:#56555e;
     --color-dark:#27282f;
-    --color-primary:rgb(71,7,234);
+    --color-primary:#067B04; /*rgb(71,7,234)*/
     --color-success:rgb(34,202,75);
     --color-danger:rgb(255,67,54);
     --color-warning:rgb(234,181,7);
@@ -231,6 +231,7 @@ main aside .sidebar h4{
        display:inline;
        background:transparent;
        color:var(--color-dark);
+       margin-right:5px;
 
     }
     main{
