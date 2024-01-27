@@ -118,7 +118,7 @@ nav .container{
     justify-content:space-between;
     align-items:center; 
     position:relative;
-    width:88%;  /*change 90 */
+    width:90%;  /*change 90 */
     margin:0 auto;
     /* background-color: #27282f; */
    
@@ -288,7 +288,7 @@ main aside .sidebar h4{
 
 .form-container{
     
-    margin-left:15%;
+    margin-left:6%;
     margin-top:5%;
     margin-right:15%;
     display:none;
@@ -300,7 +300,7 @@ form{
     border-radius:20px;
     box-shadow:2rem 0 2rem var(--color-primary-light);
     max-width:380px;
-    min-width:360px;
+    min-width:320px;
 }
 .form-element{
     font-size:16px;
