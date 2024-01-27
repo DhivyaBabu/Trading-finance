@@ -118,7 +118,7 @@ nav .container{
     justify-content:space-between;
     align-items:center; 
     position:relative;
-    width:90%;  /*change 90 */
+    width:88%;  /*change 90 */
     margin:0 auto;
     /* background-color: #27282f; */
    
@@ -299,7 +299,8 @@ form{
     padding:20px;
     border-radius:20px;
     box-shadow:2rem 0 2rem var(--color-primary-light);
-    max-width:360px;
+    max-width:380px;
+    min-width:360px;
 }
 .form-element{
     font-size:16px;
